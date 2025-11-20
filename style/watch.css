@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --main-color: #080808;
+  --text-color: #ffffff;
+  --btn-color-act: #ffffff;
+  --btn-text-act: #080808;
+  --text-grey: #AAAAAA;
+  --btn-color-add: #493646;
+  --btn-color-open: #57404a;
+  --for-gradient: #000000ab;
+  --btn_reaction-color:#262626;
+}
+
+body {
+  background-color: var(--main-color);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 20px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.btn_reaction {
+  display: flex;
+  gap: 50px;
+  background-color: var(--btn_reaction-color);
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  border: none;
+  color: var(--text-color);
+  padding: 4px 15px 4px 15px;
+}
+
+.reaction {
+  display: flex;
+  gap: 0;
+}
+
+.btn_reaction.reaction.like {
+  border-radius: 20px 0px 0px 20px;
+  width: 75px;
+  height: 35px;
+  gap: 10px;
+}
+
+.btn_reaction.reaction.dislike {
+  border-radius: 0px 20px 20px 0px;
+  width: 48px;
+  height: 35px;
+}/*# sourceMappingURL=watch.css.map */
